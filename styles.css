@@ -1,0 +1,37 @@
+.boxes{
+    border: 1px solid black;
+    display:  none;
+    width: 900px;
+    height: 800px;
+    margin-left: 25%;
+}
+
+.row{
+    height:  100px;
+}
+
+.box{
+    background-color: red;
+    float: left;
+}
+
+.boxEasy{
+    width: 180px;
+    height: 200px;
+}
+
+.boxMed{
+    width: 150px;
+    height: 114.25px;
+}
+
+.boxHigh{
+    width: 90px;
+    height: 80px;
+}
+
+#result{    
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+}

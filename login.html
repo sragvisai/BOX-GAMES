@@ -1,0 +1,20 @@
+<Html>
+    <head>
+        <script src="loginscript.js"></script>
+    </head>
+    
+    <body>
+        <div id ="credentials">
+            <p >Please enter your login id : </p><input id ="username" type="text" onchange="onModify()">
+            <p >Please enter your password : </p><input  id = "password" type="password" onchange="onModify()">
+            <button onclick="submit()">Submit</button>
+        <p id = "loginResult"></p>
+        </div>
+
+        <div id = "gamePortal">
+            <a href="http://localhost:5501/index.html">ACCURACY GAME</a>
+            <a href="http://localhost:5501/memoryGamehtml">MEMORY GAME</a>
+        </div>
+        
+    </body>
+</Html>
